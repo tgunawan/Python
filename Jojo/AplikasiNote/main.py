@@ -1,6 +1,7 @@
 #========================library========================#
 
 import os
+import fungsi as f
 
 #========================variabel========================#
 
@@ -9,10 +10,7 @@ directorty='./Jojo/AplikasiNote'
 
 #========================function========================#
 
-def startData():
-    with open(f'{directorty}/dataNote.txt', 'r') as file:
-        for line in file:
-            judulnote.append(line.strip())
+
 
 
 def add(note):
@@ -75,7 +73,7 @@ def edit():
 # input(f'here you can make note and remove note')
 # input(f"Lets begin now")
 
-startData()
+f.startData(directorty, judulnote)
 # os.system('cls')
 # displayList()
 # input(f'to start lets begin by adding note')
