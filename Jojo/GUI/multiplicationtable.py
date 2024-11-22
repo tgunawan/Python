@@ -21,4 +21,12 @@ for i in range(2,12):
     label=tk.Label(window,text=result, font=("Arial", 10, "bold", "italic"), fg="green")
     label.grid(row=i, column=j)
 
+for i in range(0,24):
+  label=tk.Label(window,text=" ", background="green")
+  label.grid(row=i, column=13)
+label=tk.Label(window,text=f"{"-":10}"*24,background="red")
+label.grid(row=14, column=0,columnspan=24)
+
+
+
 window.mainloop()
