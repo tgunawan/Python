@@ -7,9 +7,14 @@ def button_click(char):
 
 def equalto():
     global expression
-    result = str(eval(expression))
-    equation.set(result)
-    expression = ""
+    try:
+        result = str(eval(expression))
+    except Exception as e:
+        equation.set(f"Error, {e}")
+        expression = ""
+    else:
+        equation.set(result)
+        expression = ""
 
 def clear():
     global expression
