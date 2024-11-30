@@ -2,7 +2,7 @@
 import os
 
 #==============Variable================
-judulnote=["tes","tes2"]
+judulnote=["tes","tes2","tes3"]
 directory='./Jojo/AplikasiNote'
 #==============Function================
 def startData():
