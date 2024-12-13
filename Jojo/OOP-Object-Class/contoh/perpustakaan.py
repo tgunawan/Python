@@ -26,5 +26,4 @@ buku2 = Buku("Clean Code", "Robert C. Martin", 2008)
 
 buku1.pinjam()
 
-buku2.kembalikan()
-buku2.kembalikan()      
+buku2.kembalikan()   
