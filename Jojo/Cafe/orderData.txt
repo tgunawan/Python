@@ -2,3 +2,7 @@
 test | minum2 | 2
 2024-12-27 19:50
 test | snack1 | 1
+2025-01-03 18:47
+test | minum2 | 2
+test | minum1 | 1
+test | menu | 2
