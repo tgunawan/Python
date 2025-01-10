@@ -41,7 +41,7 @@ for soal in quiz:
         if life==0:
             print('Kamu kalah')
             break
-        
+
 if score==len(quiz):
     print('Selamat kamu benar semua')
 print(f'Kamu benar {score} dari {len(quiz)} soal')
