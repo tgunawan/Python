@@ -6,3 +6,6 @@ test | snack1 | 1
 test | minum2 | 2
 test | minum1 | 1
 test | menu | 2
+2025-01-04 20:04
+test | minum1 | 1
+test | minum2 | 2
