@@ -1,3 +1,4 @@
+import sys
 class bcolors:
     WARNING = '\033[93m'
     FAIL = '\033[91m'
@@ -15,7 +16,12 @@ class bcolors:
     LightBlue = "\033[94m"
     LightMagenta = "\033[95m"
     LightCyan = "\033[96m"
+    ENDC = '\033[0m'
 
+def printc(color, text):
+    print(color + text+bcolors.ENDC)
+
+printc(bcolors.Cyan, sys.argv[0])
 print(bcolors.WARNING + "hi")
 print(bcolors.FAIL + "hi")
 print(bcolors.CORRECT + "hi")
