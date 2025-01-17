@@ -1,8 +1,10 @@
 #Quizz Game with Dictionary
 
 #---------Libarary----------
-import os
-import time
+import os # module librari os
+import fungsi as f #module fungsi yang di buat sendiri
+
+
 #---------Variable----------
 quiz=[
     {
@@ -21,8 +23,6 @@ life=5
 def clear():
     os.system('cls')
     
-def wait(sec):
-    time.sleep(sec)
 #---------Main----------
 clear()
 
@@ -31,12 +31,12 @@ for soal in quiz:
     jawaban=input('Jawaban: ')
     if jawaban==soal['jawaban']:
         score+=1
-        wait(2)
+        f.wait(2)
         clear()
     else:
         life-=1
         print('Kamu salah')
-        wait(2)
+        f.wait(2)
         clear()
         if life==0:
             print('Kamu kalah')
