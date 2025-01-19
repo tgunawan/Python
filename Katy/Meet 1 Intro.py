@@ -1,3 +1,8 @@
+# Syntax
+# inputuoutput
+# variable
+# simple datatype
+
 import os
 
 os.system('clear')
