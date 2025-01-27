@@ -1,5 +1,0 @@
-# Biodata fstring
-# warna
-# conditional
-
-
