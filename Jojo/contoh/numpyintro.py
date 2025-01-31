@@ -36,3 +36,21 @@ print(random_array2d)
 
 random_array1d=np.random.rand(5)
 print(random_array1d)
+num1=3
+num2=4
+num3=81
+num4=90
+os.system('cls')
+# np.add(array1,array2)
+# np.subtract(array1,array2)
+# np.divide(array1,array2)
+# np.multiply(array1,array2)
+print(np.power(num1,num2)) # pangkat3^4 / num1 ^ num2
+print(np.sqrt(num3))# akar kuadrat
+print(np.log(num3))# log
+print(np.log10(100000))# log10
+print(np.sin(num4))# sin
+print("log10",np.cos(num4))# cos
+print(np.tan(num4))# tan
+print(np.exp(1))# eksponen
+print(round(np.pi,3))
