@@ -12,3 +12,10 @@
 # Review Conditional
 # simple Calc
 # into loop
+
+# Meet 5
+#function
+
+# import time
+# print('🌑🌒🌓🌔🌕🌖🌗🌘')
+# time.sleep(2)
