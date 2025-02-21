@@ -11,10 +11,15 @@
 # Meet 4
 # Review Conditional
 # simple Calc
-# into loop
+# intro loop
 
 # Meet 5
-#function
+# Review Conditional dan loop
+# simple Store
+
+# Meet 6
+# data type(list1D, dict)
+# intro function
 
 # import time
 # print('🌑🌒🌓🌔🌕🌖🌗🌘')
