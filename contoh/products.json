@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Gelas",
+        "price": 10.0,
+        "quantity": 5
+    },
+    {
+        "name": "Piring",
+        "price": 5.0,
+        "quantity": 2
+    }
+]

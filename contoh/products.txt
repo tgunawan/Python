@@ -1,0 +1,4 @@
+Tas Ransel,2.0,100
+Tshirt,50.0,7
+Short Pants,20.0,10
+Tumbler,10.0,24

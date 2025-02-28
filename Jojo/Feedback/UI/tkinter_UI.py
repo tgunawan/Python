@@ -4,7 +4,7 @@ import datetime as dt
 
 # ----------variable----------
 directory = './Jojo/Feedback/UI'
-
+variable="update"
 # ----------function----------
 def bacaData():
     try:
