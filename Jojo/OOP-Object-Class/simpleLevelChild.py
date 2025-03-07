@@ -20,9 +20,7 @@ class Anjing(Mamalia):
     def berbicara(self):
         print("Anjing menggonggong")
 class Burung(Unggas):  
-    def berbicara(self):
-        print(self.nama, "Burung berkicau")
-    def berbicara(self, suara):
+    def berbicara(self, suara="Cuitcuit"):
         print(self.nama, "Burung berkicau",suara)
 
 anjingku = Anjing("Husky")

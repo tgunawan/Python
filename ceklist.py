@@ -10,7 +10,7 @@ def search_words(sentence, word_array):
 words = ["apple", "banana", "orange", "grape", "pear"]
 for word in words:
   print(word)
-  
+
 sentence = input("Enter a sentence: ")
 if search_words(sentence, words):
     print("The sentence contains a word from the array.")
