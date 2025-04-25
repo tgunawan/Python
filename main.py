@@ -1,18 +1,8 @@
-def say_hi(func): # decorator
-    def new_toy():
-        print("hi")
-        func()
-    def second_toy():
-        print("hello")
-    return new_toy
+import subprocess
 
+# contoh = subprocess.run(["python", "contoh/decorator.py"], capture_output=True)
+# print(contoh.stdout.decode())
 
-def talk():
-    print("I'm a Robot")
-
-@say_hi #panggil decorator
-def sing():
-    print("la la la")
-talk()
-sing()
-talk()
+contoh="contoh/" #folder contoh
+jojo="jojo/" #folder jojo
+subprocess.run(["python", contoh+"decorator.py"])
