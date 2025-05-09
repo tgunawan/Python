@@ -7,7 +7,7 @@ class Aplikasi(ttk.Window):
         super().__init__(themename="flatly")  # Anda bisa mencoba tema lain seperti "darkly", "solar"
         self.title("Aplikasi Sederhana")
         #self.geometry("400x300")
-        self.resizable(False, False)
+        self.resizable(True, False) # Mengizinkan pengguna menyesuaikan ukuran jendela (Horizontal, Vertikal)
 
         self.login_frame = LoginFrame(self, self.show_signup_frame, self.show_landing_frame)
         self.signup_frame = SignupFrame(self, self.show_login_frame)
