@@ -9,6 +9,7 @@ class Aplikasi(ttk.Window):
         #self.geometry("400x300")
         self.resizable(True, False) # Mengizinkan pengguna menyesuaikan ukuran jendela (Horizontal, Vertikal)
 
+        #Frame => setiap halaman / page di aplikasi
         self.login_frame = LoginFrame(self, self.show_signup_frame, self.show_landing_frame)
         self.signup_frame = SignupFrame(self, self.show_login_frame)
         self.landing_frame = LandingFrame(self, self.show_login_frame)
