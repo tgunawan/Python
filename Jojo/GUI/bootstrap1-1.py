@@ -1,7 +1,7 @@
 import tkinter as tk
 import ttkbootstrap as ttk
 from tkinter import messagebox
-import json  # Untuk bekerja dengan format JSON (mirip dictionary dalam file)
+import json  
 import os
 
 directory='./Jojo/GUI/'
@@ -34,7 +34,7 @@ class Aplikasi(ttk.Window):
 
 class LoginFrame(ttk.Frame):
     def __init__(self, parent, show_signup, show_landing):
-        super().__init__(parent, padding=20)
+        super().__init__(parent, padding=50)
         self.grid(row=0, column=0, sticky="nsew")
 
         ttk.Label(self, text="Login", font=("Arial", 18)).grid(row=0, column=0, columnspan=2, pady=(0, 10))
@@ -112,7 +112,7 @@ class SignupFrame(ttk.Frame):
                     users = json.load(f)
                 except json.JSONDecodeError:
                     users = {}
-                users[username] = new_user
+                users[username] = new_user #menam
                 f.seek(0)         # Kembali ke awal file untuk menulis ulang
                 json.dump(users, f, indent=4)
                 f.truncate()     # Hapus sisa isi file jika data baru lebih pendek
