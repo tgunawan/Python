@@ -1,0 +1,10 @@
+{
+    "tedi": {
+        "email": "t@email.com",
+        "password": "123"
+    },
+    "jo": {
+        "email": "jo.email.com",
+        "password": "321"
+    }
+}

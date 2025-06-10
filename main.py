@@ -1,11 +1,8 @@
-# Simple Input/Output Python Code
-import os
-os.system('clear')
-# Ask the user for their name
-name = input("Enter your name: ")
+import subprocess
 
-# Ask the user for their age
-age = input("Enter your age: ")
+# contoh = subprocess.run(["python", "contoh/decorator.py"], capture_output=True)
+# print(contoh.stdout.decode())
 
-# Print a greeting message
-print(f"Hello, {name}! You are {age} years old.")
+contoh="contoh/" #folder contoh
+jojo="jojo/" #folder jojo
+subprocess.run(["python", contoh+"decorator.py"])
