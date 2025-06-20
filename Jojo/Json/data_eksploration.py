@@ -54,7 +54,7 @@ if my_sales_data:
     print(f"\nHighest Purchase Amount: ${highest_amount:.2f}")
     print(f"Lowest Purchase Amount: ${lowest_amount:.2f}")
 
-    # Find the record for the highest purchase
+    # cari data pembelian terbanyak
     highest_purchase_record = next(
         (record for record in my_sales_data if record['amount'] == highest_amount),
         None
@@ -62,7 +62,7 @@ if my_sales_data:
     if highest_purchase_record:
         print(f"Details of highest purchase: {json.dumps(highest_purchase_record, indent=2)}")
 
-# 6. Grouping by city and sum amounts
+# 6. Grouping by city and jumlah amounts
 sales_by_city = {}
 for record in my_sales_data:
     city = record['city']
