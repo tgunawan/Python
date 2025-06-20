@@ -1,0 +1,182 @@
+[
+    {
+        "transaction_id": "TRX-0001",
+        "category": "Food",
+        "amount": 207.8,
+        "quantity": 2,
+        "city": "Chicago",
+        "is_online_purchase": false,
+        "rating": 1
+    },
+    {
+        "transaction_id": "TRX-0002",
+        "category": "Home Goods",
+        "amount": 321.0,
+        "quantity": 2,
+        "city": "Los Angeles",
+        "is_online_purchase": true,
+        "rating": 1
+    },
+    {
+        "transaction_id": "TRX-0003",
+        "category": "Books",
+        "amount": 298.8,
+        "quantity": 1,
+        "city": "Los Angeles",
+        "is_online_purchase": true,
+        "rating": 3
+    },
+    {
+        "transaction_id": "TRX-0004",
+        "category": "Clothing",
+        "amount": 470.62,
+        "quantity": 4,
+        "city": "Houston",
+        "is_online_purchase": true,
+        "rating": 3
+    },
+    {
+        "transaction_id": "TRX-0005",
+        "category": "Books",
+        "amount": 334.97,
+        "quantity": 4,
+        "city": "Phoenix",
+        "is_online_purchase": true,
+        "rating": 2
+    },
+    {
+        "transaction_id": "TRX-0006",
+        "category": "Electronics",
+        "amount": 175.78,
+        "quantity": 8,
+        "city": "Phoenix",
+        "is_online_purchase": true,
+        "rating": 3
+    },
+    {
+        "transaction_id": "TRX-0007",
+        "category": "Home Goods",
+        "amount": 461.56,
+        "quantity": 7,
+        "city": "Phoenix",
+        "is_online_purchase": true,
+        "rating": 2
+    },
+    {
+        "transaction_id": "TRX-0008",
+        "category": "Books",
+        "amount": 121.17,
+        "quantity": 2,
+        "city": "Houston",
+        "is_online_purchase": false,
+        "rating": 4
+    },
+    {
+        "transaction_id": "TRX-0009",
+        "category": "Clothing",
+        "amount": 267.94,
+        "quantity": 5,
+        "city": "Chicago",
+        "is_online_purchase": true,
+        "rating": 1
+    },
+    {
+        "transaction_id": "TRX-0010",
+        "category": "Books",
+        "amount": 404.86,
+        "quantity": 10,
+        "city": "New York",
+        "is_online_purchase": false,
+        "rating": 5
+    },
+    {
+        "transaction_id": "TRX-0011",
+        "category": "Electronics",
+        "amount": 451.17,
+        "quantity": 9,
+        "city": "Chicago",
+        "is_online_purchase": false,
+        "rating": 5
+    },
+    {
+        "transaction_id": "TRX-0012",
+        "category": "Books",
+        "amount": 328.07,
+        "quantity": 4,
+        "city": "New York",
+        "is_online_purchase": true,
+        "rating": 5
+    },
+    {
+        "transaction_id": "TRX-0013",
+        "category": "Clothing",
+        "amount": 340.84,
+        "quantity": 3,
+        "city": "New York",
+        "is_online_purchase": false,
+        "rating": 1
+    },
+    {
+        "transaction_id": "TRX-0014",
+        "category": "Electronics",
+        "amount": 414.95,
+        "quantity": 3,
+        "city": "Los Angeles",
+        "is_online_purchase": true,
+        "rating": 1
+    },
+    {
+        "transaction_id": "TRX-0015",
+        "category": "Home Goods",
+        "amount": 139.57,
+        "quantity": 8,
+        "city": "Chicago",
+        "is_online_purchase": false,
+        "rating": 4
+    },
+    {
+        "transaction_id": "TRX-0016",
+        "category": "Food",
+        "amount": 196.61,
+        "quantity": 8,
+        "city": "Phoenix",
+        "is_online_purchase": true,
+        "rating": 5
+    },
+    {
+        "transaction_id": "TRX-0017",
+        "category": "Home Goods",
+        "amount": 165.71,
+        "quantity": 7,
+        "city": "Chicago",
+        "is_online_purchase": false,
+        "rating": 4
+    },
+    {
+        "transaction_id": "TRX-0018",
+        "category": "Clothing",
+        "amount": 410.95,
+        "quantity": 4,
+        "city": "Phoenix",
+        "is_online_purchase": false,
+        "rating": 5
+    },
+    {
+        "transaction_id": "TRX-0019",
+        "category": "Electronics",
+        "amount": 383.67,
+        "quantity": 7,
+        "city": "Houston",
+        "is_online_purchase": true,
+        "rating": 3
+    },
+    {
+        "transaction_id": "TRX-0020",
+        "category": "Food",
+        "amount": 103.65,
+        "quantity": 3,
+        "city": "Phoenix",
+        "is_online_purchase": false,
+        "rating": 5
+    }
+]
