@@ -1,0 +1,14 @@
+Numpy
+- tujuan = membantu dalam mempercepat perhitungan
+    => perhitungan sampai jutaan python list / manual lambat => Numpy
+
+Pandas
+- label array
+- dataFrame
+
+CSV = Comma Separated Value
+excel => xls => CSV
+
+- conditional -> rules
+    - if pembelian>100:
+        isLoyal=True
