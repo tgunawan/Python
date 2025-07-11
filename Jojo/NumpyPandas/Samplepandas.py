@@ -33,4 +33,4 @@ print("\nDataFrame with custom index:\n", df)
 
 df.info()
 hapus()
-df.describe()
+print(df.describe())
