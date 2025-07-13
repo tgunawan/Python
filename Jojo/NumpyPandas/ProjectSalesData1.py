@@ -75,6 +75,7 @@ print(f"\nNumber of Unique Products Sold: {num_unique_products}")
 # --- 5. Simple Conditional Selection/Filtering ---
 
 # Find all sales transactions for a specific product (e.g., ProductID 101)
+# =Filter(B2:B = 101, B2:C) google sheet
 product_101_sales = df_sales[df_sales['ProductID'] == 101]
 print("\nSales Transactions for Product ID 101:")
 print(product_101_sales)
@@ -102,3 +103,10 @@ print("\n--- Analysis Complete ---")
 # --- 5. Simple Conditional Selection/Filtering ---
 # Find all sales transactions for a specific product (e.g., ProductID 101)
 # Find transactions with a total sale amount greater than $50
+
+# Contoh Menu
+# 1. Tampilkan Data Penjualan
+# 2. Hitung Total Pendapatan
+# 3. Hitung Rata-rata Penjualan
+# 4. Temukan Produk Terlaris (berdasarkan Jumlah Terjual dan Pendapatan)
+
