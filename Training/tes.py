@@ -1,6 +1,4 @@
-name = input("Input kan nama: ")
+nama = input("Inputkan nama: ")
 
-name_kapital = name.capitalize()
-
-for _ in range(3): 
-    print((name_kapital + " ") * 5)
+for i in range(3):
+    print(*[nama] * 5)
