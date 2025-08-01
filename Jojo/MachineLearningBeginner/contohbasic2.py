@@ -6,8 +6,8 @@ print("--- Project: Simple Sales Data Analysis ---")
 # 1. Raw Sales Data
 # Each row represents a sales transaction: [ProductID, Quantity, UnitPrice]
 sales_data_np = np.array([
-    [101, 5, 12.50],  # Product 101, 5 units, $12.50/unit
-    [102, 2, 25.00],  # Product 102, 2 units, $25.00/unit
+    [101, 5, 12.50],  
+    [102, 2, 25.00],  
     [101, 3, 12.50],
     [103, 1, 50.00],
     [102, 4, 25.00],
@@ -21,7 +21,6 @@ print("\n1. Raw Sales Data (NumPy Array):")
 print(sales_data_np)
 print("Shape:", sales_data_np.shape)
 
-# Convert NumPy array to Pandas DataFrame for easier analysis
 df_sales = pd.DataFrame(sales_data_np, columns=['ProductID', 'QuantitySold', 'PricePerUnit'])
 
 print("\nSales Data (Pandas DataFrame):")
@@ -30,14 +29,11 @@ print("\nDataFrame Info:")
 df_sales.info()
 
 # --- 2. Data Cleaning/Preparation (Basic) ---
-
-# Ensure numeric columns are treated as numeric
 df_sales['ProductID'] = df_sales['ProductID'].astype(int)
 df_sales['QuantitySold'] = df_sales['QuantitySold'].astype(int)
 df_sales['PricePerUnit'] = df_sales['PricePerUnit'].astype(float)
 
 # --- 3. Feature Engineering: Calculate Total Sale Amount ---
-# Using element-wise multiplication
 df_sales['TotalSaleAmount'] = df_sales['QuantitySold'] * df_sales['PricePerUnit']
 
 print("\nSales Data with 'TotalSaleAmount':")
@@ -93,7 +89,7 @@ print("\n--- Sales Data Visualizations ---")
 plt.style.use('default') # Or 'ggplot', 'seaborn-v0_8' if you have it etc.
 
 # Visualization 1: Total Revenue per Product
-plt.figure(figsize=(10, 6))
+plt.figure(num="Total Revenue per Product", figsize=(10, 6))
 # Using plt.bar for more direct control
 plt.bar(product_revenue.index.astype(str), product_revenue.values, color='skyblue')
 plt.title('Total Revenue Generated per Product ID')
@@ -126,3 +122,17 @@ plt.tight_layout()
 plt.show()
 
 print("\n--- Analysis and Visualization Complete ---")
+
+
+"""
+'default'	Gaya standar bawaan matplotlib modern.
+'classic'	Tampilan matplotlib sebelum versi 2.0 (tampilan lama).
+'ggplot'	Mirip dengan gaya ggplot2 dari R — latar abu-abu dan grid putih.
+'seaborn'	Berbagai varian gaya dari pustaka seaborn (warna lebih menarik dan jelas).
+'bmh'	Digunakan oleh majalah "Bayesian Methods for Hackers", rapi dan minimalis.
+'fivethirtyeight'	Meniru grafik dari situs 538.com — penuh gaya.
+'grayscale'	Semua dalam skala abu-abu. Cocok untuk cetak hitam putih.
+'dark_background'	Latar hitam dan elemen terang — cocok untuk presentasi.
+'Solarize_Light2'	Kombinasi warna terang dan kontras tinggi.
+'fast'	Style yang mengorbankan estetika demi kecepatan render (untuk banyak plot).
+"""
