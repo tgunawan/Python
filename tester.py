@@ -1,20 +1,20 @@
 import time,os
 import turtle as t
-'''
-def hapus():
-    os.system("clear")
 
-def wait(n):
-    time.sleep(n)
+screen = t.Screen()
+screen.title("Program Kura Sederhana")
+screen.bgcolor("lightblue")
+screen.setup(width=600, height=600)
 
-def tulis(teks):
-    print(teks)'''
 
-print("Selamat datang di program penghapusan file!")
 kura=t.Turtle()
 kura.shape("turtle")
 kura.color("green")
 kura.speed(1)
+
+def kembali():
+    kura.home()
+    kura.setheading(0)
 
 def kanan(deg=90):
     kura.right(deg)
@@ -34,5 +34,14 @@ def penaTurun():
 def penaNaik():
     kura.penup()
 
+
+screen.listen()
+
+# Deteksi tombol
+screen.onkey(maju, "w")
+screen.onkey(mundur, "s")
+screen.onkey(lambda: kiri(45), "a")
+screen.onkey(lambda: kanan(45), "d")
+screen.onkey(kembali, "space")
 
 t.mainloop()
