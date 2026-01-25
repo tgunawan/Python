@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+
+os.system('cls' if os.name == 'nt' else 'clear')
 
 print("--- Project: Simple Sales Data Analysis ---")
 # 1. Raw Sales Data
