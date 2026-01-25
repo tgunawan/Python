@@ -1,5 +1,5 @@
 '''
-# Data Netflix
+# Data Netflix 2
 
 1 load data
 2. cleaning data (kosong, duplikat, transformasi, ubah tipe data)
