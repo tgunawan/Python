@@ -4,14 +4,14 @@ import json
 # Function to load tasks from file
 def load_tasks():
     try:
-        with open('tasks.json', 'r') as file:
+        with open('src/tasks.json', 'r') as file:
             return json.load(file)
     except (FileNotFoundError, json.JSONDecodeError):
         return []
 
 # Function to save tasks to file
 def save_tasks(tasks):
-    with open('tasks.json', 'w') as file:
+    with open('src/tasks.json', 'w') as file:
         json.dump(tasks, file)
 
 # Function to add task
