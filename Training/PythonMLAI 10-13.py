@@ -1,3 +1,10 @@
+# baris 8 khusus materi 10
+#baris 122 alasan pakai model Random Forest
+#baris 162 tes pemakaian model yang sudah dilatih dengan input dari user
+#baris 237 materi 11-13
+#baris 376 pengunaan evaluasi
+# baris 436 visualisasi hasil evaluasi
+
 '''Materi 10 Iris Dataset: Inspeksi Data & Visualisasi
 Analisis dataset **Iris** adalah "Ritus Peralihan" (Rite of Passage) bagi setiap orang yang belajar Data Science. Dataset ini sangat bersih, seimbang, dan sempurna untuk memahami bagaimana fitur (karakteristik fisik) membedakan satu spesies dengan spesies lainnya.
 
