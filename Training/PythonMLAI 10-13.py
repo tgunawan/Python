@@ -159,6 +159,11 @@ Dalam data perumahan, sering ada data "aneh" (outliers), seperti rumah yang sang
 
 **Apakah Anda ingin mencoba membandingkan akurasinya dengan model lain seperti `LinearRegression` untuk melihat perbedaannya secara langsung di Google Colab?**'''
 
+
+#========================================================================================
+
+
+
 '''Tes pemakaian model yang sudah dilatih dengan input dari user. Pastikan model sudah dilatih di cell sebelumnya agar variabel `model` tersedia untuk digunakan di sini.
 
 Berikut adalah pembagian cell yang bisa Anda salin langsung ke Google Colab:
