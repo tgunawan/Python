@@ -4,6 +4,7 @@ list2D=[
     [4,5,6],
     [7,8,9]]
 
+
 row=3
 column=3
 fastList=[['O']*column for _ in range(row)]

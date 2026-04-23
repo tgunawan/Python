@@ -31,4 +31,7 @@ isitab2.pack(padx=20, pady=20)
 isitab3=tk.Label(tab3, text="Tab 3")
 isitab3.pack(padx=20, pady=20)
 
+labelnama=ttk.LabelFrame(tab3, text="Nama")
+labelnama.pack(padx=20, pady=20)
+
 root.mainloop()
