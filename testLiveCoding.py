@@ -1,4 +1,7 @@
-'''hasil test no 1
+'''
+
+
+hasil test no 1
 datainput={1:0,0:0}
 print(datainput)
 while True:
@@ -71,7 +74,26 @@ for i in range(3):
     # print((nama + ' ') * 5)
     print(" ".join([nama]*5))'''
 
-nama = 'Kevin'
-for i in range(3):
-    print((nama + ' ') * 5)
+# nama = 'Kevin'
+# for i in range(3):
+#     print((nama + ' ') * 5)
 
+n=int(input("MAsukkan jumlah baris: "))
+for i in range(1,n+1,2):
+    print(f"{'*'*i:^{n+5}}")
+
+import random
+
+def angka_acak():
+    angka = random.randint(1, 100)
+    return angka
+
+def cek_angka(jawab,soal):
+    if jawab == soal:
+        print(f"{jawab} adalah angka yang tepat!")
+    elif jawab < soal:
+        print(f"{jawab} terlalu kecil, coba lagi.")
+    elif jawab > soal:
+        print(f"{jawab} terlalu besar, coba lagi.")
+    else:
+        print("Input tidak valid. Masukkan angka antara 1 dan 100.")
