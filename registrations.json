@@ -1,0 +1,13 @@
+[
+    {
+        "nama": "tes1",
+        "email": "tes1@email.com",
+        "telepon": "123",
+        "tgl_lahir": "123",
+        "jenis_kelamin": "Laki-laki",
+        "alamat": "123",
+        "kota": "asd",
+        "provinsi": "DKI Jakarta",
+        "terdaftar": "2026-07-09 12:15:26"
+    }
+]

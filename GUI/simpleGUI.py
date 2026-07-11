@@ -12,7 +12,7 @@ root.resizable(False, False)
 judul = tk.Label(
     root,
     text="Form Input Sederhana",
-    font=("Segoe UI", 16, "bold"),
+    font=("Brush Script MT", 16, "bold"),
     bg="#f2f4f7",
     fg="#1f2937",
 )
