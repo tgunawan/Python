@@ -33,9 +33,8 @@ except FileExistsError:
 
 with open("filehanlding/contohAwal/awal.txt", "r") as file:
     isi=file.readlines()
-    # nama="Tedi     Gunawan "
-    # print(nama.strip())
     print(isi)
+    
 print("#"*50)
 
 for baris in isi:
