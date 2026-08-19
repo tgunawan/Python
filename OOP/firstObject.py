@@ -23,9 +23,17 @@ class Anjing(Hewan):
     def suara(self):
         print("Guk guk")
 
+class Burung(Hewan):
+    def __init__(self, nama,ras):
+        super().__init__(nama)
+        self.ras = ras
+    def suara(self):
+        print("Guk guk")
+
 
 anjing=Anjing("Doggy","Hachiko")
 kucing=Kucing("Shiro","Putih")
+# burung=Burung()
 
 anjing.suara()
 kucing.suara()
